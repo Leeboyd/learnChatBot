@@ -61,5 +61,8 @@ yarn.lock
 # next.js build output
 .next
 
+# ENV
+slack-token
+
 # MAC
 .DS_Store
