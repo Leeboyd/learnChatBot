@@ -1,0 +1,17 @@
+{
+  "name": "learnChatBot",
+  "version": "1.0.0",
+  "description": "A simple Slack Botkit bot.",
+  "main": "logbot.js",
+  "dependencies": {
+    "botkit": "0.1.1"
+  },
+  "devDependencies": {
+    "standard": "^7.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Google Inc.",
+  "license": "Apache-2.0"
+}
