@@ -7,6 +7,12 @@
     "botkit": "0.1.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build . -t boylee0101/learnchatbot:1.0.2",
+    "incoming": "curl -X POST --data-urlencode 'payload={\"text\": \"Hello from Cloud Shell.\"}' https://hooks.slack.com/services/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"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leeboyd/learnChatBot.git"
   }
 }
